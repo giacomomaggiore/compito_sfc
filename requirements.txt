@@ -2,7 +2,6 @@ datetime
 pandas
 pandas_datareader
 matplotlib
-random
 yfinance
 numpy
 math
