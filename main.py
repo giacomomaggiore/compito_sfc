@@ -21,7 +21,7 @@ import math
 yf.pdr_override()
 #-------------------
 #-------------------
-start = dt.datetime(2014,10,1)
+start = dt.datetime(2020,10,1)
 end = dt.datetime(2023,12,31)
 stock = "PPFB.SG"
 period = 12
