@@ -470,7 +470,7 @@ for titolo in lista_titoli:
   plt.rcParams["font.family"] = 'sans serif'
   plt.rcParams["font.size"] = 15
 
-  ø
+  
 
   ritorni_df["media"] = ritorni_df[elenco_anni].mean(axis = 1)
 
