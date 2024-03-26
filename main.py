@@ -23,7 +23,7 @@ yf.pdr_override()
 #-------------------
 start = dt.datetime(2014,10,1)
 end = dt.datetime(2023,12,31)
-stock = "EURUSD=X"
+stock = "PPFB.SG"
 period = 12
 
 df = pdr.get_data_yahoo(stock, start, end)
