@@ -4,4 +4,3 @@ pandas_datareader
 matplotlib
 yfinance
 numpy
-math
