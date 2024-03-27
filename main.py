@@ -23,7 +23,7 @@ yf.pdr_override()
 #-------------------
 start = dt.datetime(2020,10,1)
 end = dt.datetime(2023,12,31)
-stock = "EUR/USD=X"
+stock = "AAPL"
 period = 12
 
 df = pdr.get_data_yahoo(stock, start, end)
@@ -237,7 +237,7 @@ st.write("""
 Il dato ottenuto **non è particolarmente significativo per lo studio della stagionalità**: mette in mostra infatti come i prezzi si muovino coerentemente durante il mese e non si concentra su quanto i ritorni mensili siano effettivamente simili nel corso degli anni.
 Per fare ciò si calcola, mese per mese, la **deviazione standard** del ritorno mensile nei diversi anni per mostrare quanto tali rendimenti si discostino, annata per annata, dalla media su 10 anni del mese in considerazione.
 
-         Questo è risultato è inserito nel medesimo dataframe nella colonna **"Dispersione"**.
+Questo è risultato è inserito nel medesimo dataframe nella colonna **"Dispersione"**.
          """)
 st.code(
   """
